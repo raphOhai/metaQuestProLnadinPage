@@ -11,12 +11,19 @@ const Header = () => {
           <div className="headerBoxContent">
             <div className="smallText1 logo flex2 center1 ">
               <img className="cursorPointer" src="/oculus.webp" alt="" />
-              <p className="headingTex hideMobileFlex  cursorPointer">
+              <p className="headingTex hideMobileFlex  cursorPointer ">
                 {" "}
                 meta Quest
               </p>
               <p className="headingTex hideMobileFlex  cursorPointer">
                 RayBan stores
+              </p>
+
+              <p className="headingTex hideMobileFlex  cursorPointer">
+                Support
+              </p>
+              <p className="headingTex hideMobileFlex  cursorPointer">
+                Where to buy
               </p>
             </div>
 

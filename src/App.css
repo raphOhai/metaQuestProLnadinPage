@@ -42,8 +42,8 @@
 }
 
 .headingTex {
-  font-size: 0.9rem;
-  color: var(--main-text-color);
+  font-size: 0.8rem;
+  color: var(--secoundary--text-color);
   font-family: regularText;
 }
 

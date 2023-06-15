@@ -19,13 +19,14 @@ const VisionDemo2 = () => {
           >
             <Expand color={"#fff"} />
           </div>
-          <h1 id="mainHeading" className="boldText">
-            Quest pro
-          </h1>
+
           <div className="flex center1">
             <p id="heading1" className="graySmallText ">
               New ways to create and Work!{" "}
             </p>
+          </div>
+          <div>
+            <button className="buynow  cursorPointer">find a store</button>
           </div>
         </div>
         <div className="gridSection maxWidth shiftTop">
