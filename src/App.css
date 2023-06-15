@@ -201,6 +201,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.gradientBack {
+  background-color: -webkit-linear-gradient(45deg, #ffb6ff, #b344ff);
+}
+
 .fullHeight {
   height: 60%;
 }
@@ -213,7 +217,10 @@ div::-webkit-scrollbar {
   background: transparent;
 }
 
+#nextGen {
+  font-size: 3rem;
+}
 
-#nextGen{
-  font-size: 4rem;
+#exploreMore{
+  font-size: 3rem;
 }
