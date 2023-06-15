@@ -5,11 +5,11 @@ import Cart from "../../assets/cart";
 import Search from "../../assets/search";
 const Header = () => {
   return (
-    <div className="fixed padding">
+    <div className="fixed ">
       <div className="stack3 maxWidth2 defaultPadding ">
         <div className="headerBoxContent">
           <div className="smallText1 logo flex2 center1 ">
-            <img style={{marginLeft:"-.6rem"}} src="/oculus.webp" alt="" />
+            <img  src="/oculus.webp" alt="" />
             <p className="headingTex hideMobileFlex"> meta Quest</p>
             <p className="headingTex hideMobileFlex">RayBan stores</p>
           </div>
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div style={{marginTop:"-2rem"}} className="headerBoxContent">
+        <div style={{marginTop:"-1rem"}} className="headerBoxContent">
           <div >
             <p id="productText" className="boldText ">
               Quest Pro

@@ -30,7 +30,7 @@
 .stack {
   display: flex;
   flex-direction: column;
-  gap: .3rem;
+  gap: 0.3rem;
 }
 
 .block2 {
@@ -52,6 +52,12 @@
     height: auto;
     opacity: 1;
     margin-left: -25rem;
+  }
+  #mainHeading {
+    font-size: 1.2rem;
+  }
+  #heading1 {
+    font-size: 1.3rem;
   }
   .mobileVid {
     top: 0;
@@ -96,12 +102,12 @@
     visibility: visible;
   }
   .section2Box > div {
-    height: 360vh;
+    height: 380vh;
     /* border-radius: 30px; */
   }
 }
 
-.rotatate{
+.rotatate {
   rotate: 180;
 }
 
@@ -122,6 +128,9 @@
     height: auto;
     opacity: 1;
     margin-left: -25rem;
+  }
+  #heading1 {
+    font-size: 1.3rem;
   }
   .mobileVid {
     top: 0;
@@ -182,6 +191,9 @@
     opacity: 1;
     margin-left: -32rem;
   }
+  #heading1 {
+    font-size: 2.5rem;
+  }
   .mobileVid {
     top: 0;
     left: 0;
@@ -241,6 +253,9 @@
     opacity: 1;
     margin: 0;
   }
+  #heading1 {
+    font-size: 2.6rem;
+  }
   .mobileVid {
     /* position: fixed; */
     top: 0;
@@ -290,7 +305,6 @@
   }
 }
 
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   #v0 {
@@ -311,6 +325,9 @@
     height: auto;
     opacity: 1;
     margin: 0;
+  }
+  #heading1 {
+    font-size: 2.6rem;
   }
   .hideMobileFlex {
     display: flex;
@@ -353,11 +370,10 @@
   }
 }
 
-.borderRadius{
+.borderRadius {
   border-radius: 20px;
 }
 
-
-.borderRadiusNone{
+.borderRadiusNone {
   border-radius: none;
 }

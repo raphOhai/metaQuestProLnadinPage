@@ -26,11 +26,11 @@
   background-color: ;
 }
 
-.stack3 {
+/* . {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
+} */
 
 .buynow {
   border: none;
