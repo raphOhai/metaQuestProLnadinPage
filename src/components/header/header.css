@@ -1,25 +1,45 @@
-.headerBox{
-    position: fixed;
-    width: 100%;
-    top: 0;
+.headerBox {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-.headerBoxContent{
-    display: flex;
-    justify-content: space-between;
+.headerBoxContent {
+  display: flex;
+  justify-content: space-between;
 }
-.flex2{
-    display: flex;
-    justify-content: space-between;
-    gap:2rem
-    
-}
-
-.logo{
-    z-index: 20;
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
-.logo img{
-    height: 50px;
-    
+.logo {
+  z-index: 20;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.headerBtn {
+  background-color: ;
+}
+
+.stack3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buynow {
+  border: none;
+  background-color: #0071e3;
+  border-radius: 5rem;
+  padding: .3rem 1rem;
+  color:#fff
+}
+
+.padding{
+    padding: .5rem;
 }

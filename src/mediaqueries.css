@@ -75,6 +75,13 @@
   }
 }
 
+#productText{
+  font-size: 1.4rem;
+}
+#product2{
+  font-size: 1rem;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #v0 {

@@ -13,8 +13,8 @@ export const Hooks = () => {
 
       // let vidBox2 = document.getElementById("v1")
   
-      vid.currentTime = window.scrollY / 101;
-      // console.log(vid.currentTime)
+      vid.currentTime = window.scrollY / 500;
+      console.log(vid.currentTime)
 
       if (vid.currentTime >= 30) {
         Element2.classList.replace("fixedVid2", "fixed2");
