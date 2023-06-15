@@ -42,9 +42,9 @@
 }
 
 .headingTex {
-  font-size: 1rem ;
+  font-size: 1rem;
   color: var(--main-text-color);
-  font-family: regularText ;
+  font-family: regularText;
 }
 
 .smallText1 {
@@ -207,4 +207,13 @@ body {
 
 #spec {
   font-size: 1.5rem;
+}
+div::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+#nextGen{
+  font-size: 4rem;
 }

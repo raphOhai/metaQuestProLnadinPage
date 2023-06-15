@@ -13,6 +13,9 @@ export const Hooks = () => {
       vid.onloadstart = function () {
         alert("Starting to load video");
       };
+      vid.onloaded = function () {
+        console.log("leaded");
+      };
 
       // let vidBox2 = document.getElementById("v1")
       const increament = divid(window.scrollY);
@@ -20,7 +23,7 @@ export const Hooks = () => {
       vid.currentTime = increament;
       console.log(vid.currentTime);
 
-      if (vid.currentTime >= 19.4) {
+      if (vid.currentTime >= 10) {
         Element2.classList.replace("fixedVid2", "fixed2");
         // console.log("yes")
       } else {
