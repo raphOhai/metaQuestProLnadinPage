@@ -16,7 +16,7 @@
 .sideSlideLeft {
   opacity: 0;
   /* filter: blur(2px); */
-  transform: translateX(15%);
+  transform: translateX(5%);
   transition: all 1s;
 }
 

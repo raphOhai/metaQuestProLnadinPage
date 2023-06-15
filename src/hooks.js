@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
 import { handleClickScroll } from "./fuctions/scrolltop";
+import { AddBorderRadius, RemoveBorder } from "./hooks/fuctions";
 
 export const Hooks = () => {
   useEffect(() => {
     const Element2 = document.getElementById("section-1");
     let vid = document.getElementById("v0");
     let MobileVid = document.querySelector(".mobileVid");
+
     console.log( "cdcdc",MobileVid)
     const divid = (item) => {
       const val = item / 500;
@@ -33,9 +35,12 @@ export const Hooks = () => {
 
       if (vid.currentTime >= 10) {
         Element2.classList.replace("fixedVid2", "fixed2");
+        RemoveBorder()
+        
         // console.log("yes")
       } else {
         Element2.classList.replace("fixed2", "fixedVid2");
+        AddBorderRadius()
       }
 
       // Box.classList.add("sticky")

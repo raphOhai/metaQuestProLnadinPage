@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { ObserveVid } from "../../observeVid";
 import MultipleAnimator from "../../hooks/animator";
+import Expand from "../../assets/expand";
 const VisionDemo2 = () => {
   useEffect(() => {}, []);
   ObserveVid("demo2");
@@ -10,6 +11,10 @@ const VisionDemo2 = () => {
     <>
       <div className="stack defaultPadding">
         <div style={{ paddingTop: "2rem" }} className="stack center">
+          <div className="rotatate">
+            <Expand />
+          </div>
+
           <h1 id="mainHeading" className="boldText">
             Quest pro
           </h1>
@@ -79,13 +84,13 @@ const VisionDemo2 = () => {
                 className="cards flex center1 "
               >
                 <div className="gridSection2 ">
-                  <div  className="flex center1 sideSlide1 ">
+                  <div className="flex center1 sideSlide1 ">
                     <p
                       id="nextGen"
-                      style={{ marginTop: "3rem", padding:"2rem" }}
+                      style={{ marginTop: "3rem", padding: "2rem" }}
                       className="boldText gradientText"
                     >
-                     Next Generation Optics
+                      Next Generation Optics
                     </p>
                   </div>
                   <div className=" maxWidth sideSlideLeft">

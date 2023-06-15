@@ -85,6 +85,24 @@
   .hideDexktop {
     display: block;
   }
+  .fixedVid2 {
+    top: 30rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 1;
+    height: 0vh;
+    position: fixed;
+    visibility: visible;
+  }
+  .section2Box > div {
+    height: 360vh;
+    /* border-radius: 30px; */
+  }
+}
+
+.rotatate{
+  rotate: 180;
 }
 
 #productText {
@@ -137,6 +155,20 @@
   .hideDexktop {
     display: block;
   }
+  .fixedVid2 {
+    top: 30rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 1;
+    height: 0vh;
+    position: fixed;
+    visibility: visible;
+  }
+  .section2Box > div {
+    height: 360vh;
+    /* border-radius: 30px; */
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -181,6 +213,20 @@
   }
   .hideDexktop {
     display: block;
+  }
+  .fixedVid2 {
+    top: 30rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 1;
+    height: 0vh;
+    position: fixed;
+    visibility: visible;
+  }
+  .section2Box > div {
+    height: 200vh;
+    /* border-radius: 30px; */
   }
 }
 
@@ -227,6 +273,20 @@
   }
   .hideDexktop {
     display: none;
+  }
+  .fixedVid2 {
+    top: 30rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 1;
+    height: 0vh;
+    position: fixed;
+    visibility: visible;
+  }
+  .section2Box > div {
+    height: 290vh;
+    /* border-radius: 30px; */
   }
 }
 
@@ -276,4 +336,27 @@
   .hideDexktop {
     display: none;
   }
+  .fixedVid2 {
+    top: 50rem;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 1;
+    height: 0vh;
+    position: fixed;
+    visibility: none;
+  }
+  .section2Box > div {
+    height: 250vh;
+    /* border-radius: 30px; */
+  }
+}
+
+.borderRadius{
+  border-radius: 20px;
+}
+
+
+.borderRadiusNone{
+  border-radius: none;
 }

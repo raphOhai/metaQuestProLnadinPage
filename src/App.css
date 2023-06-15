@@ -61,7 +61,7 @@
 /* ----- fonts---------- */
 #set-height {
   height: 3000vh;
-}
+}image.png
 
 .vid2 {
   width: 100%;
@@ -101,14 +101,7 @@ body {
 .displayNone {
   display: none;
 }
-.fixedVid2 {
-  top: 30rem;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  height: 0vh;
-  visibility: hidden;
-}
+
 .showVid2 {
   top: 0;
   left: 0;
@@ -165,6 +158,7 @@ body {
 .box2 {
   background-color: #161617;
   color: aliceblue;
+ 
 }
 
 .section2Box {
@@ -173,9 +167,7 @@ body {
   overflow-y: scroll;
 }
 
-.section2Box > div {
-  height: 250vh;
-}
+
 
 .flex {
   display: flex;
