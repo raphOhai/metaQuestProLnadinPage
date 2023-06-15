@@ -15,6 +15,7 @@ const Hero = () => {
             id="demo2"
             muted
             autoPlay
+            loop
             className="hideDexktop mobileVid"
             style={{ height: "35rem" }}
             src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
