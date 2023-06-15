@@ -8,6 +8,7 @@ export const explore = () => {
   } else {
     Element2.classList.replace("fixed2", "fixedVid2");
     Icon.classList.add("rotatate")
+    AddBorderRadius()
   }
 };
 

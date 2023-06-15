@@ -38,13 +38,13 @@ export const Hooks = () => {
       if (vid.currentTime >= 10) {
         Element2.classList.replace("fixedVid2", "fixed2");
         RemoveBorder();
-        Icon.classList.remove("rotatate");
+        // Icon.classList.remove("rotatate");
 
         // console.log("yes")
       } else {
         Element2.classList.replace("fixed2", "fixedVid2");
         AddBorderRadius();
-        Icon.classList.add("rotatate");
+        // Icon.classList.add("rotatate");
       }
 
       // Box.classList.add("sticky")
