@@ -19,9 +19,9 @@ const Hero = () => {
             style={{ height: "35rem" }}
             src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
           ></video>
-          <div className="flex center1 shiftTop">
+          {/* <div className="flex center1 shiftTop">
             <button onClick={()=> explore()} id="exploreMore" className="buynow gradientText boldText">Explore</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

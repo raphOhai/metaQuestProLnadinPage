@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { ObserveVid } from "../../observeVid";
 import MultipleAnimator from "../../hooks/animator";
 import Expand from "../../assets/expand";
+import { explore } from "../../hooks/fuctions";
 const VisionDemo2 = () => {
   useEffect(() => {}, []);
   ObserveVid("demo2");
@@ -11,19 +12,25 @@ const VisionDemo2 = () => {
     <>
       <div className="defaultPadding">
         <div style={{ paddingTop: "1rem" }} className="stack center">
-          <div className="rotatate">
+          <div id="ExpandIcon"  onClick={()=> explore()} className="rotatate transition">
             <Expand />
           </div>
           <h1 id="mainHeading" className="boldText">
             Quest pro
           </h1>
-          <p  id="heading" className="graySmallText ">New ways to create and Work! </p>
+          <div className="flex center1">
+            <p id="heading1" className="graySmallText ">
+              New ways to create and Work!{" "}
+            </p>
+          </div>
         </div>
         <div className="gridSection maxWidth shiftTop">
           <div className="cards">
             <div className="stack">
               <div style={{ paddingTop: "3rem" }} className="center">
-                <h1 id="heading1" className="boldText gradientText">Quest pro</h1>
+                <h1 id="heading1" className="boldText gradientText">
+                  Quest pro
+                </h1>
               </div>
               <div className="center">
                 <img className="responsive SlideUp" src="/mainDmo.png" alt="" />
@@ -85,7 +92,7 @@ const VisionDemo2 = () => {
                 <div className="gridSection2 ">
                   <div className="flex center1 sideSlide1 ">
                     <p
-                     id="heading1"
+                      id="heading1"
                       style={{ marginTop: "3rem", padding: "2rem" }}
                       className="boldText gradientText"
                     >

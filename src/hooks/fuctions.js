@@ -1,7 +1,14 @@
 export const explore = () => {
   const Element2 = document.getElementById("section-1");
-  Element2.classList.replace("fixedVid2", "fixed2");
-  RemoveBorder();
+  const Icon = document.getElementById("ExpandIcon")
+  if (Element2.classList.contains("fixedVid2")) {
+    Element2.classList.replace("fixedVid2", "fixed2");
+    RemoveBorder();
+    Icon.classList.remove("rotatate")
+  } else {
+    Element2.classList.replace("fixed2", "fixedVid2");
+    Icon.classList.add("rotatate")
+  }
 };
 
 export const RemoveBorder = () => {
@@ -14,17 +21,17 @@ export const AddBorderRadius = () => {
   mainBox.classList.add("borderRadius");
 };
 
-export const Loading = () =>{
-  let  loaderBox = document.getElementById("loaderBox")
-  let  mainVid = document.getElementById("v0");
+export const Loading = () => {
+  let loaderBox = document.getElementById("loaderBox");
+  let mainVid = document.getElementById("v0");
   // mainVid.onloaded  = function () {
   //   console.log("leade")
   // }
-  const showLoader = () =>{
-    loaderBox.classList.replace("display", "hide")
-  }
+  const showLoader = () => {
+    loaderBox.classList.replace("display", "hide");
+  };
 
   const myTimeout = setTimeout(showLoader, 3000);
+};
 
 
-}
