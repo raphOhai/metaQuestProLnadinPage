@@ -1,14 +1,14 @@
 export const explore = () => {
   const Element2 = document.getElementById("section-1");
-  const Icon = document.getElementById("ExpandIcon")
+  const Icon = document.getElementById("ExpandIcon");
   if (Element2.classList.contains("fixedVid2")) {
     Element2.classList.replace("fixedVid2", "fixed2");
     RemoveBorder();
-    Icon.classList.remove("rotatate")
+    Icon.classList.remove("rotatate");
   } else {
     Element2.classList.replace("fixed2", "fixedVid2");
-    Icon.classList.add("rotatate")
-    AddBorderRadius()
+    Icon.classList.add("rotatate");
+    AddBorderRadius();
   }
 };
 
@@ -28,11 +28,15 @@ export const Loading = () => {
   // mainVid.onloaded  = function () {
   //   console.log("leade")
   // }
+  console.log(mainVid.readyState);
+
+  // if (mainVid.readyState === 4) {
+  //   // it's loaded
+  //   showLoader();
+  // }
   const showLoader = () => {
     loaderBox.classList.replace("display", "hide");
   };
 
-  const myTimeout = setTimeout(showLoader, 3000);
+  const myTimeout = setTimeout(showLoader, 5000);
 };
-
-

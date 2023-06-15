@@ -13,13 +13,13 @@ import { Loading } from "./hooks/fuctions";
 function App() {
   Hooks();
   useEffect(() => {
-    Loading()
-  }, [])
-  
+    Loading();
+  }, []);
+
   return (
     <>
       <div id="set-height">
-        <Loader/>
+        <Loader />
         <Header />
         <Hero />
         <main>
