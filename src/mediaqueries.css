@@ -30,7 +30,7 @@
 .stack {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: .3rem;
 }
 
 .block2 {
@@ -289,6 +289,7 @@
     /* border-radius: 30px; */
   }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

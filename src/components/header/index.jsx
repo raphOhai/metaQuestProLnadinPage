@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="headerBoxContent">
+        <div style={{marginTop:"-2rem"}} className="headerBoxContent">
           <div >
             <p id="productText" className="boldText ">
               Quest Pro

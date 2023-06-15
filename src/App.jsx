@@ -7,12 +7,19 @@ import { Hook2 } from "./hook2";
 import Hero from "./components/hero";
 import VisionDemo from "./components/visionDemo";
 import Header from "./components/header";
+import Loader from "./components/preloader";
+import { Loading } from "./hooks/fuctions";
 
 function App() {
   Hooks();
+  useEffect(() => {
+    Loading()
+  }, [])
+  
   return (
     <>
       <div id="set-height">
+        <Loader/>
         <Header />
         <Hero />
         <main>

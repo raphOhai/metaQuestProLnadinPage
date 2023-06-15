@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import { handleClickScroll } from "./fuctions/scrolltop";
-import { AddBorderRadius, RemoveBorder } from "./hooks/fuctions";
+import { AddBorderRadius, Loading, RemoveBorder } from "./hooks/fuctions";
 
 export const Hooks = () => {
   useEffect(() => {
     const Element2 = document.getElementById("section-1");
     let vid = document.getElementById("v0");
     let MobileVid = document.querySelector(".mobileVid");
+
 
     console.log( "cdcdc",MobileVid)
     const divid = (item) => {
@@ -21,11 +22,13 @@ export const Hooks = () => {
     }
     const changeBackground = () => {
       vid.onloadstart = function () {
-        alert("Starting to load video");
+         
       };
       vid.onloaded = function () {
-        console.log("leaded");
+     
       };
+
+      Loading()
 
       // let vidBox2 = document.getElementById("v1")
       const increament = divid(window.scrollY);

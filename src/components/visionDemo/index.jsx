@@ -9,8 +9,8 @@ const VisionDemo2 = () => {
   MultipleAnimator();
   return (
     <>
-      <div className="stack defaultPadding">
-        <div style={{ paddingTop: "2rem" }} className="stack center">
+      <div className="stack2 defaultPadding">
+        <div style={{ paddingTop: "1rem" }} className="stack center">
           <div className="rotatate">
             <Expand />
           </div>
@@ -21,23 +21,23 @@ const VisionDemo2 = () => {
           <p className="graySmallText ">New ways to create and Work! </p>
         </div>
         <div className="gridSection maxWidth shiftTop">
-          <div className="cards">
+          <div style={{height:"32rem"}} className="cards">
             <div className="stack">
               <div style={{ paddingTop: "3rem" }} className="center">
                 <h1 className="boldText gradientText">Quest pro</h1>
               </div>
               <div className="center">
-                <img className="responsive" src="/mainDmo.png" alt="" />
+                <img className="responsive SlideUp" src="/mainDmo.png" alt="" />
               </div>
             </div>
           </div>
           <div className="stack">
-            <div className="cards fullHeight SlideUp">
-              <img className="responsive" src="/demo6.png" alt="" />
+            <div className="cards fullHeight ">
+              <img className="responsive SlideUp" src="/demo6.png" alt="" />
             </div>
 
             <div
-              style={{ minHeight: "10rem", marginTop: "2rem" }}
+              style={{ minHeight: "10rem", marginTop: "1.7rem" }}
               className="cards "
             >
               <div className="flex center textAlignCenter">
@@ -78,7 +78,7 @@ const VisionDemo2 = () => {
           </div>
 
           <div>
-            <div className="maxWidth shiftTop SlideUp">
+            <div className="maxWidth shiftTop ">
               <div
                 style={{ maxHeight: "30rem" }}
                 className="cards flex center1 "

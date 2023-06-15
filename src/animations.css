@@ -30,7 +30,7 @@
 .SlideUp {
   opacity: 0;
   filter: blur(2px);
-  transform: translatey(5%);
+  transform: translatey(50%);
   transition: all 1.5s;
 }
 

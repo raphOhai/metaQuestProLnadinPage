@@ -42,7 +42,7 @@
 }
 
 .headingTex {
-  font-size: 1rem;
+  font-size: .9rem;
   color: var(--main-text-color);
   font-family: regularText;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .fixed2 {
-  top: 5.6rem;
+  top: 6rem;
   left: 0;
   position: fixed;
   width: 100%;
@@ -215,4 +215,8 @@ div::-webkit-scrollbar {
 
 #exploreMore{
   font-size: 3rem;
+}
+
+.columbSpacing{
+
 }
