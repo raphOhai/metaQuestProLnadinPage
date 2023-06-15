@@ -1,0 +1,50 @@
+:root {
+  --main-text-color: #fff;
+  --secoundary--text-color: #727276;
+  --main-backgroundColor: #000000;
+  --secoundary-backgroundColor: #161617;
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.gridSection2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2rem;
+  }
+
+.maxWidth {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0rem;
+}
+
+.cards{
+    background-color: var(--main-backgroundColor);
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.shiftTop{
+    padding-top: 2rem;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.block2{
+    height: 1rem;
+}
+
+#mainHeading{
+  font-size: 2rem;
+  color: #CECECE;
+
+}

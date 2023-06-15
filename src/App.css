@@ -1,0 +1,208 @@
+@font-face {
+  font-family: semiBoldIcon;
+  src: url(../public/sf-pro-display_semibold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: regularIcon;
+  src: url(../public/sf-pro-icons_regular.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: regularText;
+  src: url(../public/sf-pro-text_regular.woff2);
+  /* font-weight:200; */
+}
+
+@font-face {
+  font-family: semiBoldText;
+  src: url(../public/sf-pro-text_semibold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: book;
+  src: url(../public/CircularXXWeb-Book.woff2);
+  font-weight: bold;
+}
+
+:root {
+  --main-text-color: #fff;
+  --secoundary--text-color: #727276;
+  --main-backgroundColor: #000000;
+  --secoundary-backgroundColor: #161617;
+}
+
+.boldText {
+  font-size: 4rem;
+  color: var(--main-text-color);
+  font-family:  semiBoldIcon;
+}
+
+.smallText1 {
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+  font-family: regularText;
+}
+
+.graySmallText {
+  font-size: 1.5rem;
+  color: var(--secoundary--text-color);
+  font-family: regularText;
+}
+/* ----- fonts---------- */
+#set-height {
+  height: 1000vh;
+}
+#v0 {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+.vid2 {
+  width: 100%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+body {
+  background-color: var(--main-backgroundColor);
+  height: 300rem;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+.fixedBox {
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.opacityNone {
+  opacity: 0;
+}
+#vidWrapper {
+  height: 70;
+}
+
+.fixed2 {
+  top: 4rem;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  visibility: visible;
+}
+.displayNone {
+  display: none;
+}
+.fixedVid2 {
+  top: 30rem;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 0vh;
+  visibility: hidden;
+}
+.showVid2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: 10;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.responsive {
+  height: auto;
+  width: 100%;
+}
+
+.transition {
+  transition: all ease-in-out 0.5s;
+}
+
+.overFlowBox {
+  height: 800rem;
+  background-color: red;
+}
+
+.overFlowScroll {
+  overflow: scroll;
+  height: 100vh;
+  background-color: blue;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.hero {
+  background-color: #000000;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.vidText {
+  font-size: 9rem;
+  font-weight: 300;
+  z-index: 8;
+  left: 40%;
+  top: 50%;
+  color: aliceblue;
+}
+
+.box2 {
+  background-color: #161617;
+  color: aliceblue;
+}
+
+.section2Box {
+  height: 100vh;
+
+  overflow-y: scroll;
+}
+
+.section2Box > div {
+  height: 200vh;
+}
+
+.flex{
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.textAlignCenter{
+  text-align: center;
+}
+
+.gradientText {
+  background: -webkit-linear-gradient(45deg, #FFB6FF, #B344FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fullHeight{
+  height: 60%;
+}
+
+#spec{
+  font-size:1.5rem ;
+}
