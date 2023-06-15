@@ -9,7 +9,7 @@ const Header = () => {
       <div className="stack3 maxWidth2 defaultPadding ">
         <div className="headerBoxContent">
           <div className="smallText1 logo flex2 center1 ">
-            <img src="/oculus.webp" alt="" />
+            <img style={{marginLeft:"-.6rem"}} src="/oculus.webp" alt="" />
             <p className="headingTex hideMobileFlex"> meta Quest</p>
             <p className="headingTex hideMobileFlex">RayBan stores</p>
           </div>
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         <div className="headerBoxContent">
-          <div style={{paddingLeft:".3rem"}}>
+          <div >
             <p id="productText" className="boldText ">
               Quest Pro
             </p>

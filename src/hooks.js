@@ -3,20 +3,24 @@ import { handleClickScroll } from "./fuctions/scrolltop";
 
 export const Hooks = () => {
   useEffect(() => {
-    const changeBackground = () => {
-      const playbackConst = 3000;
-      const Element2 = document.getElementById("section-1");
-      let vid = document.getElementById("v0");
-      vid.onloadstart = function() {
-        alert("Starting to load video");
+    const Element2 = document.getElementById("section-1");
+    let vid = document.getElementById("v0");
+    const divid = (item) => {
+      const val = item / 500;
+      return val;
     };
+    const changeBackground = () => {
+      vid.onloadstart = function () {
+        alert("Starting to load video");
+      };
 
       // let vidBox2 = document.getElementById("v1")
-  
-      vid.currentTime = window.scrollY / 500;
-      console.log(vid.currentTime)
+      const increament = divid(window.scrollY);
 
-      if (vid.currentTime >= 30) {
+      vid.currentTime = increament;
+      console.log(vid.currentTime);
+
+      if (vid.currentTime >= 19.4) {
         Element2.classList.replace("fixedVid2", "fixed2");
         // console.log("yes")
       } else {
