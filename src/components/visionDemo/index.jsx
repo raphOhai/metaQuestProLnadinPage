@@ -12,7 +12,11 @@ const VisionDemo2 = () => {
     <>
       <div className="defaultPadding">
         <div style={{ paddingTop: "1rem" }} className="stack center">
-          <div id="ExpandIcon"  onClick={()=> explore()} className="rotatate transition">
+          <div
+            id="ExpandIcon"
+            onClick={() => explore()}
+            className="rotatate transition cursorPointer "
+          >
             <Expand color={"#fff"} />
           </div>
           <h1 id="mainHeading" className="boldText">

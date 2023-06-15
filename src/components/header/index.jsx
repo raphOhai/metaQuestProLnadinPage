@@ -10,16 +10,21 @@ const Header = () => {
         <div className="stack3  ">
           <div className="headerBoxContent">
             <div className="smallText1 logo flex2 center1 ">
-              <img src="/oculus.webp" alt="" />
-              <p className="headingTex hideMobileFlex"> meta Quest</p>
-              <p className="headingTex hideMobileFlex">RayBan stores</p>
+              <img className="cursorPointer" src="/oculus.webp" alt="" />
+              <p className="headingTex hideMobileFlex  cursorPointer">
+                {" "}
+                meta Quest
+              </p>
+              <p className="headingTex hideMobileFlex  cursorPointer">
+                RayBan stores
+              </p>
             </div>
 
             <div className=" flex2 center1">
-              <div>
+              <div className=" cursorPointer">
                 <Cart />
               </div>
-              <div>
+              <div className=" cursorPointer">
                 <Search />
               </div>
             </div>
@@ -27,20 +32,26 @@ const Header = () => {
 
           <div style={{ marginTop: "-1rem" }} className="headerBoxContent">
             <div>
-              <p id="productText" className="boldText ">
+              <p id="productText" className="boldText  cursorPointer">
                 Quest Pro
               </p>
             </div>
 
             <div className="headerBoxContent flex2 center1">
-              <p id="product2" className="graySmallText hideMobileFlex">
+              <p
+                id="product2"
+                className="graySmallText hideMobileFlex  cursorPointer"
+              >
                 overview
               </p>
-              <p id="product2" className="smallText1 hideMobileFlex">
+              <p
+                id="product2"
+                className="smallText1 hideMobileFlex  cursorPointer"
+              >
                 Tech Specs
               </p>
               <div>
-                <button className="buynow">find a store</button>
+                <button className="buynow  cursorPointer">find a store</button>
               </div>
             </div>
           </div>
