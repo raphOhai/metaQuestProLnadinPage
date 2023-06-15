@@ -3,3 +3,23 @@
     width: 100%;
     top: 0;
 }
+
+.headerBoxContent{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem
+    
+}
+
+.logo{
+    z-index: 20;
+}
+
+.logo img{
+    height: 50px;
+    
+}

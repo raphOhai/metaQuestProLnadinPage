@@ -7,11 +7,10 @@ export const Hooks = () => {
       const playbackConst = 3000;
       const Element2 = document.getElementById("section-1");
       let vid = document.getElementById("v0");
-      let Box = document.getElementById("sticky");
 
       // let vidBox2 = document.getElementById("v1")
-
-      vid.currentTime = window.scrollY / 120;
+  
+      vid.currentTime = window.scrollY / 101;
       // console.log(vid.currentTime)
 
       if (vid.currentTime >= 30) {

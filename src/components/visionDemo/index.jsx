@@ -6,7 +6,7 @@ const VisionDemo2 = () => {
   ObserveVid("demo2")
   return (
     <>
-      <div className="stack">
+      <div className="stack defaultPadding">
          <div style={{paddingTop:"2rem"}} className="stack center">
            <h1 id="mainHeading" className="boldText">Quest pro</h1>
            <p className="graySmallText ">New ways to create and Work! </p>

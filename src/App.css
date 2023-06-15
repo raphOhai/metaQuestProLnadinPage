@@ -1,30 +1,30 @@
 @font-face {
   font-family: semiBoldIcon;
-  src: url(../public/sf-pro-display_semibold.woff2);
+  src: url(/sf-pro-display_semibold.woff2);
   font-weight: bold;
 }
 
 @font-face {
   font-family: regularIcon;
-  src: url(../public/sf-pro-icons_regular.woff2);
+  src: url(/sf-pro-icons_regular.woff2);
   font-weight: bold;
 }
 
 @font-face {
   font-family: regularText;
-  src: url(../public/sf-pro-text_regular.woff2);
+  src: url(/sf-pro-text_regular.woff2);
   /* font-weight:200; */
 }
 
 @font-face {
   font-family: semiBoldText;
-  src: url(../public/sf-pro-text_semibold.woff2);
+  src: url(/sf-pro-text_semibold.woff2);
   font-weight: bold;
 }
 
 @font-face {
   font-family: book;
-  src: url(../public/CircularXXWeb-Book.woff2);
+  src: url(/CircularXXWeb-Book.woff2);
   font-weight: bold;
 }
 
@@ -38,7 +38,13 @@
 .boldText {
   font-size: 4rem;
   color: var(--main-text-color);
-  font-family:  semiBoldIcon;
+  font-family: semiBoldIcon;
+}
+
+.headingTex {
+  font-size: 1rem ;
+  color: var(--main-text-color);
+  font-family: regularText ;
 }
 
 .smallText1 {
@@ -56,13 +62,7 @@
 #set-height {
   height: 1000vh;
 }
-#v0 {
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 1;
-}
+
 .vid2 {
   width: 100%;
 }
@@ -151,9 +151,6 @@ body {
 .hero {
   background-color: #000000;
   width: 100vw;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .vidText {
@@ -177,10 +174,10 @@ body {
 }
 
 .section2Box > div {
-  height: 200vh;
+  height: 250vh;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
@@ -189,20 +186,25 @@ body {
   align-items: center;
   margin: 0 auto;
 }
-.textAlignCenter{
+
+.center1 {
+  justify-content: center;
+  align-items: center;
+}
+.textAlignCenter {
   text-align: center;
 }
 
 .gradientText {
-  background: -webkit-linear-gradient(45deg, #FFB6FF, #B344FF);
+  background: -webkit-linear-gradient(45deg, #ffb6ff, #b344ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.fullHeight{
+.fullHeight {
   height: 60%;
 }
 
-#spec{
-  font-size:1.5rem ;
+#spec {
+  font-size: 1.5rem;
 }

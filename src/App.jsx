@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <div id="set-height">
+        <Header/>
         <Hero />
         <main>
           <div id="section-1" className="fixedVid2  transition ">
