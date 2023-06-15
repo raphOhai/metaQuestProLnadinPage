@@ -7,6 +7,9 @@ export const Hooks = () => {
       const playbackConst = 3000;
       const Element2 = document.getElementById("section-1");
       let vid = document.getElementById("v0");
+      vid.onloadstart = function() {
+        alert("Starting to load video");
+    };
 
       // let vidBox2 = document.getElementById("v1")
   

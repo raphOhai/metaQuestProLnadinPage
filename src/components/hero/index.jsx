@@ -8,8 +8,7 @@ const Hero = () => {
           <video
             id="v0"
             className="video-background"
-            // src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
-            src="/output.mp4"
+            src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
           ></video>
         </div>
       </div>
