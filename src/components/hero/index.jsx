@@ -11,8 +11,8 @@ const Hero = () => {
           <video
             id="v0"
             className="video-background hideMobileAndTab"
-            src="/mainVid.mp4"
-            // src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
+            // src="/mainVid.mp4"
+            src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
           ></video>
           <div className="relative">
             <video
@@ -22,8 +22,8 @@ const Hero = () => {
               loop
               className="hideDexktop mobileVid"
               style={{ height: "35rem" }}
-              // src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
-              src="/mainVid.mp4"
+              src="https://res.cloudinary.com/daesuz8wk/video/upload/v1686822264/output_b6ofbt.mp4"
+              // src="/mainVid.mp4"
             ></video>
             <div className="relativeCenterPlay">
               <Controls />
