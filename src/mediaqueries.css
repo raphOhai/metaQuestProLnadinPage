@@ -105,6 +105,13 @@
     height: 380vh;
     /* border-radius: 30px; */
   }
+  .relativeCenterPlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+  }
 }
 
 .rotatate {
@@ -178,6 +185,13 @@
     height: 360vh;
     /* border-radius: 30px; */
   }
+  .relativeCenterPlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -239,6 +253,14 @@
   .section2Box > div {
     height: 200vh;
     /* border-radius: 30px; */
+  }
+  .relativeCenterPlay {
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
   }
 }
 
@@ -302,6 +324,12 @@
   .section2Box > div {
     height: 290vh;
     /* border-radius: 30px; */
+  }
+  .relativeCenterPlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
   }
 }
 

@@ -40,6 +40,11 @@
   color: var(--main-text-color);
   font-family: semiBoldIcon;
 }
+.relative {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
 .headingTex {
   font-size: 0.8rem;

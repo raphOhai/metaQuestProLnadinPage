@@ -4,6 +4,7 @@ import { ObserveVid } from "../../observeVid";
 import MultipleAnimator from "../../hooks/animator";
 import Expand from "../../assets/expand";
 import { explore } from "../../hooks/fuctions";
+import Expand2 from "../../assets/Expand";
 const VisionDemo2 = () => {
   useEffect(() => {}, []);
   ObserveVid("demo2");
@@ -17,7 +18,7 @@ const VisionDemo2 = () => {
             onClick={() => explore()}
             className="rotatate transition cursorPointer "
           >
-            <Expand color={"#fff"} />
+            <Expand2 color={"#fff"} />
           </div>
 
           <div className="flex center1">
