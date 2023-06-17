@@ -217,6 +217,11 @@ div::-webkit-scrollbar {
   background: transparent;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 #nextGen {
   font-size: 3rem;
 }
