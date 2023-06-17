@@ -73,9 +73,7 @@ body::-webkit-scrollbar {
   font-family: regularText;
 }
 /* ----- fonts---------- */
-#set-height {
-  height: 3000vh;
-}
+
 image.png .vid2 {
   width: 100%;
 }

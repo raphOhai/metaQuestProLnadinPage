@@ -102,7 +102,7 @@
     visibility: visible;
   }
   .section2Box > div {
-    height: 380vh;
+    height: 330vh;
     /* border-radius: 30px; */
   }
   .relativeCenterPlay {
@@ -331,6 +331,9 @@
     bottom: 0;
     margin: auto 0;
   }
+  #set-height {
+    height: 3000vh;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -395,6 +398,9 @@
   .section2Box > div {
     height: 250vh;
     /* border-radius: 30px; */
+  }
+  #set-height {
+    height: 3000vh;
   }
 }
 
