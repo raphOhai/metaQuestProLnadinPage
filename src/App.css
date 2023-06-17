@@ -36,9 +36,7 @@
 }
 
 
-body::-webkit-scrollbar {
-  display: none;
-}
+
 
 .boldText {
   font-size: 4rem;
