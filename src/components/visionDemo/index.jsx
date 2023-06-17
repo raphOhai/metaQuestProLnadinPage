@@ -89,7 +89,7 @@ const VisionDemo2 = () => {
             </div>
           </div>
 
-          <div>
+          <div style={{marginBottom:"2.5rem"}}>
             <div className="maxWidth shiftTop ">
               <div
                 style={{ maxHeight: "30rem" }}

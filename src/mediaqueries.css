@@ -102,7 +102,7 @@
     visibility: visible;
   }
   .section2Box > div {
-    height: 330vh;
+    min-height: 360vh;
     /* border-radius: 30px; */
   }
   .relativeCenterPlay {
