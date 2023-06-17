@@ -26,10 +26,6 @@ export const Hooks = () => {
       Element2.classList.replace("fixed2", "fixedVid2");
     }
     const changeBackground = () => {
-      vid.onloadstart = function () {};
-      vid.onloaded = function () {};
-
-      // let vidBox2 = document.getElementById("v1")
       const increament = divid(window.scrollY);
 
       vid.currentTime = increament;
@@ -38,16 +34,10 @@ export const Hooks = () => {
       if (vid.currentTime >= 10) {
         Element2.classList.replace("fixedVid2", "fixed2");
         RemoveBorder();
-        // Icon.classList.remove("rotatate");
-
-        // console.log("yes")
       } else {
         Element2.classList.replace("fixed2", "fixedVid2");
         AddBorderRadius();
-        // Icon.classList.add("rotatate");
       }
-
-      // Box.classList.add("sticky")
     };
 
     window.addEventListener("scroll", changeBackground);
