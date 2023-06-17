@@ -276,7 +276,7 @@
   .grayBox {
     background-color: #161617;
     z-index: 60;
-    margin-top: 1rem;
+    margin-top: -0.5rem;
   }
 }
 
@@ -353,7 +353,7 @@
   .grayBox {
     background-color: #161617;
     z-index: 60;
-    margin-top: 1rem;
+    margin-top: -0.5rem;
   }
 }
 
@@ -426,7 +426,7 @@
   .grayBox {
     background-color: #161617;
     z-index: 60;
-    margin-top: 1rem;
+    margin-top: -0.5rem;
   }
 }
 
