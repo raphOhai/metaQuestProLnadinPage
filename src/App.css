@@ -227,3 +227,9 @@ div::-webkit-scrollbar {
 
 .columbSpacing {
 }
+
+.grayBox{
+  background-color:  #161617;;
+  z-index: 60;
+  margin-top: -1rem;
+}

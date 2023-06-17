@@ -12,7 +12,7 @@ const VisionDemo2 = () => {
   return (
     <>
       <div className="defaultPadding">
-        <div style={{ paddingTop: "1rem" }} className="stack center">
+        <div className="flex center fixed grayBox">
           <div
             id="ExpandIcon"
             onClick={() => explore()}
@@ -20,7 +20,9 @@ const VisionDemo2 = () => {
           >
             <Expand2 color={"#fff"} />
           </div>
+        </div>
 
+        <div style={{ paddingTop: "1rem" }} className="stack center">
           <div className="flex center1">
             <p id="heading1" className="graySmallText ">
               New ways to create and Work!{" "}
@@ -89,7 +91,7 @@ const VisionDemo2 = () => {
             </div>
           </div>
 
-          <div style={{marginBottom:"2.5rem"}}>
+          <div style={{ marginBottom: "2.5rem" }}>
             <div className="maxWidth shiftTop ">
               <div
                 style={{ maxHeight: "30rem" }}
