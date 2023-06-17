@@ -112,6 +112,11 @@
     right: 0;
     margin: auto 0;
   }
+  .grayBox {
+    background-color: #161617;
+    z-index: 60;
+    margin-top: -1rem;
+  }
 }
 
 .rotatate {
@@ -192,6 +197,11 @@
     bottom: 0;
     margin: auto 0;
   }
+  .grayBox {
+    background-color: #161617;
+    z-index: 60;
+    margin-top: -1rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -261,6 +271,12 @@
     top: 0;
     bottom: 0;
     margin: auto;
+  }
+
+  .grayBox {
+    background-color: #161617;
+    z-index: 60;
+    margin-top: 1rem;
   }
 }
 
@@ -334,6 +350,11 @@
   #set-height {
     height: 3000vh;
   }
+  .grayBox {
+    background-color: #161617;
+    z-index: 60;
+    margin-top: 1rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -401,6 +422,11 @@
   }
   #set-height {
     height: 3000vh;
+  }
+  .grayBox {
+    background-color: #161617;
+    z-index: 60;
+    margin-top: 1rem;
   }
 }
 
