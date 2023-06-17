@@ -24,7 +24,7 @@ function App() {
         <Hero />
         <main>
           <div id="section-1" className="fixedVid2  transition">
-            <div id="borderBox" className="section2Box trasition borderRadius">
+            <div  className="section2Box trasition borderRadius">
               <div className="box2 borderRadiu">
                 <VisionDemo />
               </div>

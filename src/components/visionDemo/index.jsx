@@ -12,7 +12,7 @@ const VisionDemo2 = () => {
   return (
     <>
       <div className="defaultPadding">
-        <div className="flex center fixed grayBox">
+        <div id="borderBox" className="flex center fixed grayBox borderRadius trasition ">
           <div
             id="ExpandIcon"
             onClick={() => explore()}
