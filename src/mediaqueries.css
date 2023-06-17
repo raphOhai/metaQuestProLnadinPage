@@ -182,7 +182,7 @@
     visibility: visible;
   }
   .section2Box > div {
-    height: 360vh;
+    height: 250vh;
     /* border-radius: 30px; */
   }
   .relativeCenterPlay {
@@ -322,7 +322,7 @@
     visibility: visible;
   }
   .section2Box > div {
-    height: 290vh;
+    height: 350vh;
     /* border-radius: 30px; */
   }
   .relativeCenterPlay {

@@ -34,7 +34,9 @@
   --main-backgroundColor: #000000;
   --secoundary-backgroundColor: #161617;
 }
-::-webkit-scrollbar {
+
+
+body::-webkit-scrollbar {
   display: none;
 }
 
