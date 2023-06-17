@@ -34,6 +34,9 @@
   --main-backgroundColor: #000000;
   --secoundary-backgroundColor: #161617;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .boldText {
   font-size: 4rem;
